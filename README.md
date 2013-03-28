@@ -1,7 +1,10 @@
 h1mon
 =====
 
-A super-tiny set of scripts that send monitoring alerts to various services
+A super-tiny set of scripts that send monitoring alerts to various services<br />
+It's supposed to bridge the gap between applications which only know how to send notifications via email (firewall, raid controller, etc.)
+and push message providers which deliberately throttle email pushing because they want you to use their API.
+Simply deploy this, and point all your notifications to h1mon@localhost. 
 
 
 Installation
